@@ -1,34 +1,66 @@
 .body{
-    background-color: aquamarine;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-     text-align: center;
-     margin: 0;
-     padding: 0;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: f2f2f2;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0%;
+   
 
-}
+   }
 .invitation{
-    background-color:white;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0,3);
-}
-.BIRTHDAY_INVITATION{
-color: black;
-font-size: 24px;
+    text-align: center;
+    background-color:aquamarine;
+    border-radius: 10%;
+    padding: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,2);
+
+
+}  
+.h1 {
+    font: size 24px;
 
 }
+.button{
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
 }
-.p{
-    font-size: 16px;
+/* css transition for button*/
+button:hover{
+    background-color: blue;
 
 }
-.@keyframes background transformation{
-    from{background-color: aquamarine;
-}
-to{
-    background-color: white;
-}
-.envelope{
-    animation:background transformation 3s
-    infinite
-}
+/*keyframe animation*/
+@keyframes heartBeat {
+    
+    0%{trnsform:scale(1)
+
+    }
+    
+    25%{
+        transform:scale(1.1)
+    }
+
+    
+    50%{
+        transform:scale(1)
+    }
+    
+    75%{
+        transform:scale(1.1)
+    }
+    
+    100%{
+        transform:scale(1)
+
+    }
+ }
+ .heartBeat{
+    animation:heartbeat 1s infinite;
+ }
