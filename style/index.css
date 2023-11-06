@@ -39,7 +39,7 @@ button:hover{
 /*keyframe animation*/
 @keyframes heartBeat {
     
-    0%{trnsform:scale(1)
+    0%{transform:scale(1)
 
     }
     
@@ -62,5 +62,5 @@ button:hover{
     }
  }
  .heartBeat{
-    animation:heartbeat 1s infinite;
+    animation:heartBeat 1s infinite;
  }
